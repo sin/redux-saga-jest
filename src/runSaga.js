@@ -47,5 +47,7 @@ export default runSaga
 export {
     restartGenerator,
     getSelectors,
-    getMethod
+    getMethod,
+    getEnhancedExpect,
+    testMiddleware
 }
