@@ -1,7 +1,7 @@
 {
   "name": "redux-saga-jest",
   "version": "0.0.1",
-  "description": "Helper for testing sagas",
+  "description": "Helper library for testing redux sagas in jest.",
   "main": "src/index.js",
   "repository": "https://github.com/sin/redux-saga-jest.git",
   "author": "Mateusz Sienkan <sin.mateusz@gmail.com>",

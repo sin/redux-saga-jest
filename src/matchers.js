@@ -17,8 +17,8 @@ export const getMatcher = (effectName) => {
         const effectStr = this.utils.printExpected(JSON.stringify(effectObject))
 
         const message = () => pass
-            ? `${hintStr}\n\nExpected value not to be (using equals):\n\t${receivedStr}\n\nReceived:\n\t${effectStr}`
-            : `${hintStr}\n\nExpected value to be (using equals):\n\t${receivedStr}\n\nReceived:\n\t${effectStr}`
+            ? `${hintStr}\n\nExpected value not to be (using equals):\n\t${effectStr}\n\nReceived:\n\t${receivedStr}`
+            : `${hintStr}\n\nExpected value to be (using equals):\n\t${effectStr}\n\nReceived:\n\t${receivedStr}`
 
         return { message, pass }
     }
