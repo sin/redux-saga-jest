@@ -2,15 +2,18 @@
   "name": "redux-saga-jest",
   "version": "0.0.1",
   "description": "Helper library for testing redux sagas in jest.",
-  "main": "src/index.js",
+  "main": "dist/index.js",
   "repository": "https://github.com/sin/redux-saga-jest.git",
   "author": "Mateusz Sienkan <sin.mateusz@gmail.com>",
   "license": "MIT",
   "scripts": {
+    "build": "babel src --out-dir dist",
     "test": "jest test/"
   },
   "devDependencies": {
+    "babel-cli": "^6.26.0",
     "babel-jest": "^21.2.0",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
     "babel-preset-env": "^1.6.1",
     "jest": "^21.2.1",
     "redux-saga": "^0.16.0"
