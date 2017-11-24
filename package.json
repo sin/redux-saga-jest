@@ -1,6 +1,6 @@
 {
   "name": "redux-saga-jest",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Helper library for testing redux sagas in jest.",
   "main": "dist/index.js",
   "repository": "https://github.com/sin/redux-saga-jest.git",
